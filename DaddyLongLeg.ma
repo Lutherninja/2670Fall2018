@@ -1,6 +1,6 @@
 //Maya ASCII 2018 scene
 //Name: DaddyLongLeg.ma
-//Last modified: Tue, Aug 28, 2018 12:08:32 AM
+//Last modified: Tue, Aug 28, 2018 12:09:39 AM
 //Codeset: 1252
 requires maya "2018";
 currentUnit -l centimeter -a degree -t film;
@@ -13,8 +13,8 @@ fileInfo "license" "student";
 createNode transform -s -n "persp";
 	rename -uid "260CC6BE-45EF-CAFC-FECF-60AC8458527F";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 18.590845049558816 6.1408445991450247 13.255338479866092 ;
-	setAttr ".r" -type "double3" -5.7383527284950597 416.19999999782885 7.1467278202953423e-16 ;
+	setAttr ".t" -type "double3" -4.5412277509404042 18.760611033612179 17.489515786458373 ;
+	setAttr ".r" -type "double3" -40.538352728496392 346.19999999782686 0 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "BCEFD417-4660-26F3-93F5-CC99126C8C2D";
 	setAttr -k off ".v" no;
