@@ -17,4 +17,9 @@ public class EventScript : MonoBehaviour
     {
         Event.Invoke();
     }
+
+    private void OnMouseUp()
+    {
+        Event.Invoke();
+    }
 }
