@@ -11,7 +11,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 195f56ead03074b418061a1d366aa8ae, type: 3}
   m_Name: Isometric
   m_EditorClassIdentifier: 
-  jumpSpeed: {fileID: 11400000, guid: 2c6e839f07c45c64199441576986e15c, type: 2}
+  jumpSpeed: {fileID: 11400000, guid: dc175874e62adae4481da87eb7f05bb5, type: 2}
   gravity: {fileID: 11400000, guid: 1ad160aba3d86c14685f20ec28134a10, type: 2}
   RotX: {fileID: 11400000, guid: e9111f07b8315f24a946d362473ecdfd, type: 2}
   RotY: {fileID: 11400000, guid: e9111f07b8315f24a946d362473ecdfd, type: 2}

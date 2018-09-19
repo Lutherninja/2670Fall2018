@@ -13,7 +13,6 @@ public class MovePatternDual : MovePattern
 			Move(transform);
 			doubleJump = true;
 			
-				else
 				
 					if (doubleJump)
 					{
@@ -28,4 +27,3 @@ public class MovePatternDual : MovePattern
 		}
 
 	}
-}

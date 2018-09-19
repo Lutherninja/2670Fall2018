@@ -4,7 +4,7 @@ using UnityEngine;
 [CreateAssetMenu]
 public class MovePattern : ScriptableObject
 {
-	public FloatData jumpSpeed;
+	public FloatData JumpSpeed;
 	public FloatData gravity;
 	public FloatData RotX, RotY, RotZ;
 	public FloatData MoveX, MoveY, MoveZ;
@@ -22,7 +22,9 @@ public class MovePattern : ScriptableObject
 		}
 
 		Move(controller);
+		
 	}
+	
 
 	protected void Move(CharacterController controller)
 	{
