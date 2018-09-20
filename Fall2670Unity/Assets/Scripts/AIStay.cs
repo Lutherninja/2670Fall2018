@@ -1,16 +1,15 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.AI;
 
 [RequireComponent(typeof(NavMeshAgent))]
 
-public class AI : MonoBehaviour
+public class AIStay : MonoBehaviour
 {
+	
 	public Transform Destination;
-	public Transform PointPost;
-	private Transform finalDestination;
 	private NavMeshAgent agent;
+	public Transform PostPoint;
+	private Transform finalDestination;
 	public FloatData Speed;
 
 	private void Start()
@@ -23,18 +22,17 @@ public class AI : MonoBehaviour
 	private void OnTriggerEnter(Collider obj)
 	{
 		if (obj.transform == Destination)
-			finalDestination = Destination;
+		finalDestination = Destination;
 	}
 
-	private void OnTriggerExit(Collider other)
+	private void OnTriggerExit(Collider obj)
 	{
-		finalDestination = PointPost;
+		finalDestination = PostPoint;
 	}
 
 	private void Update()
 	{
 		agent.destination = finalDestination.position;
-		
 	}
 
 

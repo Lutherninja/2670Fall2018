@@ -11,11 +11,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 800f0fa5acdbe5a4f9882ed3c1bb4cda, type: 3}
   m_Name: Airplane
   m_EditorClassIdentifier: 
-  jumpSpeed: {fileID: 11400000, guid: e9111f07b8315f24a946d362473ecdfd, type: 2}
+  JumpSpeed: {fileID: 11400000, guid: e9111f07b8315f24a946d362473ecdfd, type: 2}
   gravity: {fileID: 11400000, guid: e9111f07b8315f24a946d362473ecdfd, type: 2}
-  RotX: {fileID: 11400000, guid: e9111f07b8315f24a946d362473ecdfd, type: 2}
-  RotY: {fileID: 11400000, guid: b26d4a7439c0d1a4684d4729d3888341, type: 2}
-  RotZ: {fileID: 11400000, guid: 31e57cf53748e8d4fba6e1dab92f5dd2, type: 2}
-  MoveX: {fileID: 11400000, guid: fb4313265c7ad794387c2cc2102d7a6d, type: 2}
-  MoveY: {fileID: 11400000, guid: e9111f07b8315f24a946d362473ecdfd, type: 2}
+  RotX: {fileID: 11400000, guid: 31e57cf53748e8d4fba6e1dab92f5dd2, type: 2}
+  RotY: {fileID: 11400000, guid: e9111f07b8315f24a946d362473ecdfd, type: 2}
+  RotZ: {fileID: 11400000, guid: 6ecf7d8048d6d81478a580f4b5f6e57f, type: 2}
+  MoveX: {fileID: 11400000, guid: e9111f07b8315f24a946d362473ecdfd, type: 2}
+  MoveY: {fileID: 11400000, guid: fb4313265c7ad794387c2cc2102d7a6d, type: 2}
   MoveZ: {fileID: 11400000, guid: e9111f07b8315f24a946d362473ecdfd, type: 2}

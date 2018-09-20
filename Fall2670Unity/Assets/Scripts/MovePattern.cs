@@ -1,6 +1,6 @@
-﻿using  System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
+
+
 [CreateAssetMenu]
 public class MovePattern : ScriptableObject
 {
@@ -16,6 +16,7 @@ public class MovePattern : ScriptableObject
 
 	public virtual void Invoke(CharacterController controller, Transform transform)
 	{
+		
 		if (controller.isGrounded)
 		{
 			Move(transform);

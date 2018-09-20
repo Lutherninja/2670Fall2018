@@ -11,11 +11,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a26ea5d5ce5ef243a1bc6a12527f4b4, type: 3}
   m_Name: DoubleJump
   m_EditorClassIdentifier: 
-  jumpSpeed: {fileID: 11400000, guid: 2c6e839f07c45c64199441576986e15c, type: 2}
+  JumpSpeed: {fileID: 11400000, guid: dc175874e62adae4481da87eb7f05bb5, type: 2}
   gravity: {fileID: 11400000, guid: 1ad160aba3d86c14685f20ec28134a10, type: 2}
   RotX: {fileID: 11400000, guid: e9111f07b8315f24a946d362473ecdfd, type: 2}
-  RotY: {fileID: 11400000, guid: 31e57cf53748e8d4fba6e1dab92f5dd2, type: 2}
+  RotY: {fileID: 11400000, guid: e9111f07b8315f24a946d362473ecdfd, type: 2}
   RotZ: {fileID: 11400000, guid: e9111f07b8315f24a946d362473ecdfd, type: 2}
   MoveX: {fileID: 11400000, guid: 31e57cf53748e8d4fba6e1dab92f5dd2, type: 2}
   MoveY: {fileID: 11400000, guid: e9111f07b8315f24a946d362473ecdfd, type: 2}
-  MoveZ: {fileID: 11400000, guid: b26d4a7439c0d1a4684d4729d3888341, type: 2}
+  MoveZ: {fileID: 11400000, guid: 6ecf7d8048d6d81478a580f4b5f6e57f, type: 2}
